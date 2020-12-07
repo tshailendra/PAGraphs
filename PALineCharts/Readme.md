@@ -98,10 +98,3 @@ For PowerApps Bar Graph all properties are prefixed with "bc"
 ### **Colors**
 
 You can provide colors in either formats:<ul><li><b>#ff0000, #00ff00, #0000ff</b></li><li><b>red, green, blue</b></li></ul>
-
-### **Stacked View**
-
-To show the graph is Stacked View
-
--   Write MORE Tests
--   Add Night Mode
