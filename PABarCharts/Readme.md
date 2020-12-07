@@ -157,7 +157,6 @@ You can provide colors in either formats:<ul><li><b>#ff0000, #00ff00, #0000ff</b
         | 07-07 | Buldhana | 343   |
         | 07-07 | Gondia   | 184   |
 
-    -   Set the Chart Type to Stacked
     -   Set Transpose to true
     -   BarCharts would transpose the data as required as follows
 
