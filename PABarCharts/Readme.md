@@ -18,6 +18,7 @@ From **Solutions** Node
 
 -   Open your PowerApp
 -   Ensure you enable "Components" in the App > Settings > Advanced Settings > Preview Features
+
     -   Insert Menu > Custom Import Components > Code
     -   Select **Bar Chart**
     -   Insert Bar Chart from code components
@@ -29,7 +30,6 @@ From **Solutions** Node
         -   **"graphroundedshadow"**
 
     ![Properties](https://github.com/tshailendra/PAGraphs/blob/main/PABarCharts/images/BarChartProperties.png?raw=true)
-    
 
 ### Sample Chart
 
@@ -115,9 +115,62 @@ For PowerApps Bar Graph all properties are prefixed with "bc"
 
 You can provide colors in either formats:<ul><li><b>#ff0000, #00ff00, #0000ff</b></li><li><b>red, green, blue</b></li></ul>
 
-### **Stacked View**
+### **Stacked Chart**
 
-To show the graph is Stacked View
+**Sample Chart**
 
--   Write MORE Tests
--   Add Night Mode
+![Properties](https://github.com/tshailendra/PAGraphs/blob/main/PABarCharts/images/StackedAnimation.gif?raw=true)
+
+-   Steps to get Stacked Chart, based on above animated stack chart
+
+    -   Select 3 appropriate columns (Date, District, Total in that order) to generate a stack chart
+    -   Consider below data fetched from an excel (in onedrive)
+
+        | Date  | District | Total |
+        | ----- | -------- | ----- |
+        | 01-07 | Beed     | 118   |
+        | 01-07 | Bhandara | 87    |
+        | 01-07 | Buldhana | 251   |
+        | 01-07 | Gondia   | 131   |
+        | 02-07 | Beed     | 121   |
+        | 02-07 | Bhandara | 87    |
+        | 02-07 | Buldhana | 263   |
+        | 02-07 | Gondia   | 145   |
+        | 03-07 | Beed     | 126   |
+        | 03-07 | Bhandara | 87    |
+        | 03-07 | Buldhana | 277   |
+        | 03-07 | Gondia   | 155   |
+        | 04-07 | Beed     | 129   |
+        | 04-07 | Bhandara | 89    |
+        | 04-07 | Buldhana | 298   |
+        | 04-07 | Gondia   | 159   |
+        | 05-07 | Beed     | 142   |
+        | 05-07 | Bhandara | 91    |
+        | 05-07 | Buldhana | 318   |
+        | 05-07 | Gondia   | 167   |
+        | 06-07 | Beed     | 149   |
+        | 06-07 | Bhandara | 94    |
+        | 06-07 | Buldhana | 318   |
+        | 06-07 | Gondia   | 169   |
+        | 07-07 | Beed     | 154   |
+        | 07-07 | Bhandara | 95    |
+        | 07-07 | Buldhana | 343   |
+        | 07-07 | Gondia   | 184   |
+
+    -   Set the Chart Type to Stacked
+    -   Set Transpose to true
+    -   BarCharts would transpose the data as required as follows
+
+        | District | 01-07 | 02-07 | 03-07 | 04-07 | 05-07 | 06-07 | 07-07 |
+        | -------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+        | Beed     | 118   | 121   | 126   | 129   | 142   | 149   | 154   |
+        | Bhandara | 87    | 87    | 87    | 89    | 91    | 94    | 95    |
+        | Buldhana | 251   | 263   | 277   | 298   | 318   | 318   | 343   |
+        | Gondia   | 131   | 145   | 155   | 159   | 167   | 169   | 184   |
+
+    -   Set the chart type on toggle
+        ```
+        OnCheck - UpdateContext({charttype: 'PAGraphs.BarCharts.bcChartType'.bcStacked})
+        OnUnCheck - UpdateContext({charttype: 'PAGraphs.BarCharts.bcChartType'.bcSimple})
+        ```
+    -   Set the bcChartType property of BarChart to **charttype**
