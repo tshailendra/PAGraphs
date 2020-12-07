@@ -1,6 +1,6 @@
 # PowerApps BarCharts
 
-Provides a better graphs for Power App Canvas Apps using [PABarCharts.zip](https://github.com/)
+Provides a better graphs for Power App Canvas Apps using [to do PABarCharts.zip](https://github.com/)
 
 ## Deployment
 
@@ -9,8 +9,10 @@ Open [PowerApps](https://make.powerapps.com/)
 From **Solutions** Node
 
 -   Click Import
--   Browse the zip file downloaded from [Git](https://github.com)
+-   Browse the zip file downloaded from [to do](https://github.com)
 -   Follow the steps to import the solution
+
+![Deployment](https://github.com/tshailendra/PAGraphs/blob/main/PABarCharts/images/SolutionsImport.png?raw=true)
 
 ## Development
 
@@ -26,7 +28,18 @@ From **Solutions** Node
         -   **'PAGraphs.BarCharts.bcBorderType'.bcGraphRoundedShadow**
         -   **"graphroundedshadow"**
 
+    ![Properties](https://github.com/tshailendra/PAGraphs/blob/main/PABarCharts/images/BarChartProperties.png?raw=true)
+    
+
 ### Sample Chart
+
+**Animated Chart**
+
+![Animation](https://github.com/tshailendra/PAGraphs/blob/main/PABarCharts/images/BarGraphAnimation.gif?raw=true)
+
+**Tool tip**
+
+![Tooltip](https://github.com/tshailendra/PAGraphs/blob/main/PABarCharts/images/GraphHover.png?raw=true)
 
 ### Properties
 
