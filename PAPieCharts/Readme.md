@@ -14,11 +14,6 @@ From **Solutions** Node
 
 ![Deployment](./images/pcSolutionsImport.png?raw=true)
 
--   From **Solutions** Node
-    -   Click Import
-    -   Browse the zip file downloaded from [Git](https://github.com)
-    -   Follow the steps to import the solution
-
 ## Development
 
 -   Open your PowerApp
