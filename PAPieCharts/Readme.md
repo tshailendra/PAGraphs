@@ -1,6 +1,6 @@
 # PowerApps PieCharts
 
-Provides a better graphs for Power App Canvas Apps using [PAPieCharts.zip](https://github.com/)
+Provides a better graphs for Power App Canvas Apps using [PAPieCharts](./Solution/PAPieCharts.zip)
 
 ## Deployment
 
@@ -9,7 +9,7 @@ Open [PowerApps](https://make.powerapps.com/)
 From **Solutions** Node
 
 -   Click Import
--   Browse the zip file downloaded from [to do](https://github.com)
+-   Browse the zip file downloaded from [PAPieCharts](./Solution/PAPieCharts.zip)
 -   Follow the steps to import the solution
 
 ![Deployment](./images/pcSolutionsImport.png?raw=true)

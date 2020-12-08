@@ -1,6 +1,6 @@
 # PowerApps BarCharts
 
-Provides a better graphs for Power App Canvas Apps using [to do PABarCharts.zip](https://github.com/)
+Provides a better graphs for Power App Canvas Apps using [PABarCharts](./Solution/PABarCharts.zip)
 
 ## Deployment
 
@@ -9,7 +9,7 @@ Provides a better graphs for Power App Canvas Apps using [to do PABarCharts.zip]
 -   From **Solutions** Node
 
     -   Click Import
-    -   Browse the zip file downloaded from [to do](https://github.com)
+    -   Browse the zip file downloaded from [PABarCharts](./Solution/PABarCharts.zip)
     -   Follow the steps to import the solution
 
     ![Deployment](./images/SolutionsImport.png?raw=true)
