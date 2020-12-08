@@ -1,6 +1,6 @@
 # PowerApps PieCharts
 
-Provides a better graphs for Power App Canvas Apps using [PALineCharts.zip](https://github.com/)
+Provides a better graphs for Power App Canvas Apps using [PAPieCharts.zip](https://github.com/)
 
 ## Deployment
 
@@ -9,29 +9,53 @@ Open [PowerApps](https://make.powerapps.com/)
 From **Solutions** Node
 
 -   Click Import
--   Browse the zip file downloaded from [Git](https://github.com)
+-   Browse the zip file downloaded from [to do](https://github.com)
 -   Follow the steps to import the solution
+
+![Deployment](./images/pcSolutionsImport.png?raw=true)
+
+-   From **Solutions** Node
+    -   Click Import
+    -   Browse the zip file downloaded from [Git](https://github.com)
+    -   Follow the steps to import the solution
 
 ## Development
 
 -   Open your PowerApp
 -   Ensure you enable "Components" in the App > Settings > Advanced Settings > Preview Features
-    -   Insert Menu > Custom Import Components > Code
-    -   Select **PieChart**
-    -   Insert Bar Chart from code components
-    -   set the Items property to a collection
-    -   In the properties tab add fields
-    -   Select the fields based on the Chart Type
+-   Insert Menu > Custom Import Components > Code
 
-### Sample Chart
+    ![PieChart](./images/pcImportComponent.png?raw=true)
 
-**to do**
+-   Select **PieChart**
+-   Insert PieCharts from code components
+-   Set the Items property to a collection
+-   In the properties tab add fields
+-   Select the fields based on the Chart Type
+-   You can set a property as:
+    -   **'PAGraphs.PieCharts.pcBorderType'.pcGraphRoundedShadow**
+    -   **"graphroundedshadow"**
+
+![Properties](./images/PieChartProperties.png?raw=true)
+
+### Sample Charts
+
+-   Donut Charts
+-   Set pcLegend as "labeled"
+-   Set pcSliceText as "value"
+
+![Donut Charts](./images/pcDonutChart.png?raw=true)
+
+-   3D Charts
+-   Set pcIs3D to "true"
+
+![3D Charts](./images/pc3DPieChart.png?raw=true)
 
 ### Properties
 
 Most properties have default values. However, you can change the values as per your requirement.
 
-For PowerApps Bar Graph all properties are prefixed with "bc"
+For PowerApps Bar Graph all properties are prefixed with "pc"
 
 | Property                 | Description                                                                                                                                                                      |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

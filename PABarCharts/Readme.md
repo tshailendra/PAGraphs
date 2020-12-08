@@ -4,34 +4,33 @@ Provides a better graphs for Power App Canvas Apps using [to do PABarCharts.zip]
 
 ## Deployment
 
-Open [PowerApps](https://make.powerapps.com/)
+-   Open [PowerApps](https://make.powerapps.com/)
 
-From **Solutions** Node
+-   From **Solutions** Node
 
--   Click Import
--   Browse the zip file downloaded from [to do](https://github.com)
--   Follow the steps to import the solution
+    -   Click Import
+    -   Browse the zip file downloaded from [to do](https://github.com)
+    -   Follow the steps to import the solution
 
-![Deployment](https://github.com/tshailendra/PAGraphs/blob/main/PABarCharts/images/SolutionsImport.png?raw=true)
+    ![Deployment](./images/SolutionsImport.png?raw=true)
 
 ## Development
 
 -   Open your PowerApp
 -   Ensure you enable "Components" in the App > Settings > Advanced Settings > Preview Features
+-   Insert Menu > Custom Import Components > Code
+-   Select **BarCharts**
+-   Insert BarCharts from code components
+-   Set the Items property to a collection
+-   In the properties tab add fields
+-   Select the fields based on the Chart Type
+-   You can set a property as:
+    -   **'PAGraphs.BarCharts.bcBorderType'.bcGraphRoundedShadow**
+    -   **"graphroundedshadow"**
 
-    -   Insert Menu > Custom Import Components > Code
-    -   Select **Bar Chart**
-    -   Insert Bar Chart from code components
-    -   set the Items property to a collection
-    -   In the properties tab add fields
-    -   Select the fields based on the Chart Type
-    -   You can set a property as:
-        -   **'PAGraphs.BarCharts.bcBorderType'.bcGraphRoundedShadow**
-        -   **"graphroundedshadow"**
+![Properties](./images/BarChartProperties.png?raw=true)
 
-    ![Properties](https://github.com/tshailendra/PAGraphs/blob/main/PABarCharts/images/BarChartProperties.png?raw=true)
-
-### Sample Chart
+### Sample Charts
 
 **Animated Chart**
 
