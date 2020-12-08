@@ -5,7 +5,7 @@ PowerApps Graphs consisting of Bar, Line and Pie Charts are developed using Powe
 [BarCharts](./PABarCharts/Readme.md)
 
 ## PowerApps LineCharts
-[LineCharts](./PALineCharts/Readme.md)
+[LineCharts](./PALineCharts/Readme.md) (WIP)
 
 ## PowerApps PieCharts
 [PieCharts](./PAPieCharts/Readme.md)
