@@ -1,4 +1,4 @@
-# PowerApps LineCharts
+# PowerApps PieCharts
 
 Provides a better graphs for Power App Canvas Apps using [PALineCharts.zip](https://github.com/)
 
@@ -17,7 +17,7 @@ From **Solutions** Node
 -   Open your PowerApp
 -   Ensure you enable "Components" in the App > Settings > Advanced Settings > Preview Features
     -   Insert Menu > Custom Import Components > Code
-    -   Select **Bar Chart**
+    -   Select **PieChart**
     -   Insert Bar Chart from code components
     -   set the Items property to a collection
     -   In the properties tab add fields
