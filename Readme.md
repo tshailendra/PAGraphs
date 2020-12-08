@@ -1,4 +1,4 @@
-# PAGraphs
+# PowerApps Graphs
 PowerApps Graphs consisting of Bar, Line and Pie Charts are developed using PowerApps Component Framework and React.
 
 ## PowerApps BarCharts
